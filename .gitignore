@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+
+# Data & warehouse
+data/raw/
+warehouse/*.duckdb
+
+# Logs
+logs/
+**/logs/
+
+# dbt artifacts
+who_health_risk/target/
+who_health_risk/dbt_packages/
+who_health_risk/logs/
